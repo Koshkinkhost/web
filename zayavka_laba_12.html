@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="laba_12 css.css">
+    <script src="laba_12_js.js"></script>
+</head>
+<body class="body">
+    <header>
+        <table>
+            <tr>
+                <td>
+                   <a href="laba_12.html"> <img style="height: 10vw;width: 10vw;" src="vozduh.png" alt=""></a> 
+                </td>
+                
+                <td>
+                    <a class="p2" href="o_nas_laba_12.html"> Команда</a>
+                </td>
+                <td>
+                    <p class="p3"> <a href="games.html">Матчи </a></p>
+                </td>
+                <td>
+                    <p class="p3"> <a href="zayavka_laba_12.html">Купить билет </a></p>
+                </td>
+                <td>
+                    <p class="p3"> <a href="gallery.html">Галерея </a></p>
+                </td>
+               
+            </tr>
+           </table>
+          
+    </header>
+    <main>
+    <h1 style="text-align: center;color:aliceblue">Купить билет</h1>
+    <form class="form">
+        <table>
+            <tr>
+                <td>
+                    <p class="p_input"> Имя </p>
+                </td>
+            
+                <td>
+                    <input id="name" class="inp" type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="p_input"> Фамилия </p>
+                </td>
+            
+                <td>
+                    <input id="s_name" class="inp" type="text"  >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="p_input"> Место </p>
+                </td>
+            
+                <td>
+                    <input id="s_name" max="120" min="0" class="inp" type="text" maxlength="2"  >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="pos" class="p_input" style="margin-right: 2.5vw;"> Ярус </p>
+                </td>
+                <td style="text-align: left;">
+                    <select id="sel" name="pos" class="sel" value="Позиция">
+                        <option id="opt" class="opt" value="Вратарь">1</option>
+                        <option id="opt" class="opt" value="Правый/Левый защитник">2</option>
+                        <option id="opt" class="opt" value="Центральный полузащитник">3</option>
+                        <option id="opt" class="opt" value="Правый/Левый полузащитник">4</option>
+                        <option id="opt" class="opt" value="Нападающий">5</option>
+                        <option id="opt" class="opt" value="Нападающий">6</option>
+                    </select>
+                    
+                    
+                </td>
+                <tr>
+                   
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                            <input id="sub" class="but" type="submit" value="Готово" onclick="cl();">
+                    </td>
+                </tr>
+            </tr>
+            
+        </table>
+        
+        
+    </form>
+</main>
+
+</body>
+</html>
